@@ -77,21 +77,31 @@ th, td {
     border-radius: 15px; /* Bordes redondeados */
 }
 
+.producto-imagen,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
 .producto-media {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%; /* Establecer un ancho máximo */
-    margin: 0 auto; /* Centrar el contenido */
-    overflow: hidden; /* Evitar que se desborde del contenedor */
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
+.producto-imagen,
+video {
+    border-radius: 15px;
+}
 
-.producto-imagen, video {
-    max-width: 100%; /* Cambiado a 100% para mantener la proporción original */
-    max-height: 300px; /* Altura máxima de 200px para controlar el tamaño */
-    margin: 0 10px;
-    border-radius: 15px; /* Bordes redondeados */
+@media screen and (max-width: 768px) {
+    .producto-imagen,
+    video {
+        max-height: 200px; /* Ajusta la altura máxima según sea necesario */
+    }
 }
 
 footer {
