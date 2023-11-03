@@ -1,0 +1,4 @@
+/* Animaciones adicionales */
+.categorias {
+    animation: cambioColorNav 5s infinite alternate; /* Animación más rápida en la barra de navegación */
+}

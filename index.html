@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body {
+            background-color: #ffe6e6;
+        }
+
+        .navbar {
+            background-color: #FF69B4; /* Rosa más intenso para la barra de navegación */
+            position: fixed;
+            width: 100%;
+            top: -10px;
+            animation: cambioColorNav 2s infinite alternate;
+            background-image: linear-gradient(to right, #FF69B4, #FFC0CB);
+            
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: #fff;
+            
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #ff66b2;
+        }
+
+        .dropdown-menu {
+            background-color: #ff66b2;
+        }
+
+        .dropdown-menu .dropdown-item {
+            color: #fff;
+        }
+
+        .dropdown-menu .dropdown-item:hover {
+            background-color: #ff99cc;
+        }
+    </style>
+    <title>Página de Maquillaje</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">Página de Maquillaje</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i></i> CATEGORÍAS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#ojos">Ojos</a>
+                            <a class="dropdown-item" href="#labios">Labios</a>
+                            <a class="dropdown-item" href="#rostro">Rostro</a>
+                            <a class="dropdown-item" href="#cejas">Cejas</a>
+                            <a class="dropdown-item" href="#uñas">Uñas</a>
+                            <a class="dropdown-item" href="#piel">Piel</a>
+                            <a class="dropdown-item" href="#brochas">Brochas</a>
+                            <a class="dropdown-item" href="#eventos">Eventos Especiales</a>
+                            <a class="dropdown-item" href="#artistico">Artístico</a>
+                            <a class="dropdown-item" href="#efectos">Efectos Especiales</a>
+                            <a class="dropdown-item" href="#fantasia">Fantasía</a>
+                            <a class="dropdown-item" href="#caracterizacion">Caracterización</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="introduccion" class="categoria">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h2>¡Bienvenido a la Página de Maquillaje!</h2>
+                    <p class="lead">Descubre una amplia gama de productos y herramientas de maquillaje para realzar tu belleza y expresar tu estilo. <br>Desde sombras de ojos vibrantes hasta labiales de larga duración, nuestra colección te ofrece todo lo que necesitas para lucir espectacular en cualquier ocasión.</p>
+                </div>
+                <div class="producto-media">
+                    <video controls>
+                        <source src="videos/general.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="ojos" class="categoria">
+        <h2>Ojos</h2>
+        <p>Productos para resaltar y embellecer tus ojos.</p>
+
+        <div class="producto">
+            <h3>Sombra de Ojos</h3>
+            <table>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Sombra en polvo</td>
+                </tr>
+                <tr>
+                    <td>Pigmentación</td>
+                    <td>Alta</td>
+                </tr>
+                <tr>
+                    <td>Duración</td>
+                    <td>8 horas</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://www.elespectador.com/resizer/zfuFs1cnCK5lbTOfLw__ycoBL-s=/525x350/filters:quality(60):format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/2AVAQXUDXNA7DPMO7BXSQGYASE.jpg" alt="Sombra de Ojos">
+                <video controls>
+                    <source src="videos/sombras.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="labios" class="categoria">
+        <h2>Labios</h2>
+        <p>Pintalabios, gloss y productos para lucir unos labios perfectos.</p>
+
+        <div class="producto">
+            <h3>Pintalabios</h3>
+            <table>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Líquido</td>
+                </tr>
+                <tr>
+                    <td>Acabado</td>
+                    <td>Matte</td>
+                </tr>
+                <tr>
+                    <td>Duración</td>
+                    <td>12 horas</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://www.magnacosmetics.co/wp-content/uploads/2021/01/950610-1.jpg" alt="Pintalabios">
+                <video controls>
+                    <source src="videos/labios.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="rostro" class="categoria">
+        <h2>Rostro</h2>
+        <p>Productos para un cutis impecable.</p>
+
+        <div class="producto">
+            <h3>Base de Maquillaje</h3>
+            <table>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Líquida</td>
+                </tr>
+                <tr>
+                    <td>Cobertura</td>
+                    <td>Media</td>
+                </tr>
+                <tr>
+                    <td>Duración</td>
+                    <td>24 horas</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202101/26/00123416421248____9__516x640.jpg" alt="Base de Maquillaje">
+                <video controls>
+                    <source src="videos/rostro.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="cejas" class="categoria">
+        <h2>Cejas</h2>
+        <p>Productos para definir y dar forma a tus cejas.</p>
+
+        <div class="producto">
+            <h3>Lápiz de Cejas</h3>
+            <table>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Lápiz retráctil</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>Marrón Oscuro</td>
+                </tr>
+                <tr>
+                    <td>Duración</td>
+                    <td>12 horas</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://cdn.maquillajetrendyshop.com/wp-content/uploads/2023/02/LAPIZ-PARA-CEJAS-SOFTLY-BEAUTY-GLAZED-REF-B121-3.jpg" alt="Lápiz de Cejas">
+                <video controls>
+                    <source src="videos/cejas.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="uñas" class="categoria">
+        <h2>Uñas</h2>
+        <p>Esmaltes, tratamientos y accesorios para tus uñas.</p>
+
+        <div class="producto">
+            <h3>Esmalte de Uñas</h3>
+            <table>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Esmalte en Gel</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>Rojo Intenso</td>
+                </tr>
+                <tr>
+                    <td>Duración</td>
+                    <td>3 semanas</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://www.masglo.com/cdn/shop/products/NOVIAMORENA.png?v=1647966469" alt="Esmalte de Uñas">
+                <video controls>
+                    <source src="videos/uñas.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="piel" class="categoria">
+        <h2>Piel</h2>
+        <p>Cremas, protectores y productos para el cuidado de la piel.</p>
+
+        <div class="producto">
+            <h3>Crema Hidratante</h3>
+            <table>
+                <tr>
+                    <td>Tipo</td>
+                    <td>Crema facial</td>
+                </tr>
+                <tr>
+                    <td>Ingredientes</td>
+                    <td>Ácido Hialurónico, Vitamina C</td>
+                </tr>
+                <tr>
+                    <td>Beneficios</td>
+                    <td>Hidratación, Antioxidante</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://www.vichy.com.co/site/pages/showImageResized.aspx?EncMediaId=U2RHYzFwZUxIM3M1QVkzZjJkekN1UT09&ImageFormatAppCode=IMAGEFORMAT_PDPV4_PACK_DKP_530_530&v=2202310175082" alt="Crema Hidratante">
+                <video controls>
+                    <source src="videos/piel.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracterizacion" class="categoria">
+        <h2>Maquillaje para Caracterización</h2>
+        <p>Productos para transformarte en personajes icónicos.</p>
+
+        <div class="producto">
+            <h3>Kit de Maquillaje de Zombie</h3>
+            <table>
+                <tr>
+                    <td>Contenido</td>
+                    <td>Látex líquido, colores, prótesis, etc.</td>
+                </tr>
+                <tr>
+                    <td>Aplicación</td>
+                    <td>Pincel y esponja</td>
+                </tr>
+                <tr>
+                    <td>Efectos</td>
+                    <td>Piel desgarrada, heridas, etc.</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://img.kwcdn.com/product/open/2023-07-29/1690614644163-b6d4b722e1794d7ab75e36962552cdce-goods.jpeg?imageView2/2/w/800/q/70/format/webp" alt="Kit de Maquillaje de Zombie">
+                <video controls>
+                    <source src="videos/zombie.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="artistico" class="categoria">
+        <h2>Maquillaje Artístico</h2>
+        <p>Productos y colores vibrantes para crear maquillajes artísticos.</p>
+    
+        <div class="producto">
+            <h3>Paleta de Acuarelas para Rostro y Cuerpo</h3>
+            <table>
+                <tr>
+                    <td>Colores</td>
+                    <td>12 colores surtidos</td>
+                </tr>
+                <tr>
+                    <td>Aplicación</td>
+                    <td>Pincel o esponja húmeda</td>
+                </tr>
+                <tr>
+                    <td>Usos</td>
+                    <td>Maquillaje artístico y de fantasía</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://ae01.alicdn.com/kf/S8d3d42526d5f4179b81d40b4f37f2a427/Paleta-de-pintura-de-cara-y-cuerpo-con-delineador-de-ojos-activado-por-agua-de-4.jpg_640x640.jpg_.webp" alt="Paleta de Acuarelas para Rostro y Cuerpo">
+                <video controls>
+                    <source src="videos\acuarelas.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <section id="efectos" class="categoria">
+        <h2>Maquillaje para Efectos Especiales</h2>
+        <p>Productos para crear efectos impresionantes en el maquillaje.</p>
+    
+        <div class="producto">
+            <h3>Kit de Maquillaje FX</h3>
+            <table>
+                <tr>
+                    <td>Contenido</td>
+                    <td>Látex líquido, sangre artificial, prótesis, etc.</td>
+                </tr>
+                <tr>
+                    <td>Aplicación</td>
+                    <td>Pincel y esponja</td>
+                </tr>
+                <tr>
+                    <td>Efectos</td>
+                    <td>Cicatrices, heridas, quemaduras, etc.</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://ae01.alicdn.com/kf/H5ca880bc615f442c9c9fec29ca6877b9J/Kit-de-maquillaje-SFX-con-efectos-especiales-modelado-de-heridas-cera-para-cicatrices-pintura-facial-y.jpg_.webp" alt="Kit de Maquillaje FX">
+                <video controls>
+                    <source src="videos/efectos.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <section id="fantasia" class="categoria">
+        <h2>Maquillaje de Fantasía</h2>
+        <p>Productos para transformarte en personajes fantásticos.</p>
+    
+        <div class="producto">
+            <h3>Maquillaje para Unicornio</h3>
+            <table>
+                <tr>
+                    <td>Colores</td>
+                    <td>Rosado, azul, púrpura</td>
+                </tr>
+                <tr>
+                    <td>Aplicación</td>
+                    <td>Pincel y esponja</td>
+                </tr>
+                <tr>
+                    <td>Efectos</td>
+                    <td>Brillo y colores vibrantes</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://frikimaestro.com/wp-content/uploads/2021/02/Artista-maquillaje-Portada.jpg" alt="Maquillaje para Unicornio">
+                <video controls>
+                    <source src="videos/arte.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="brochas" class="categoria">
+        <h2>Brochas</h2>
+        <p>Herramientas esenciales para una aplicación precisa y uniforme de maquillaje.</p>
+    
+        <div class="producto">
+            <h3>Set de Brochas Profesionales</h3>
+            <table>
+                <tr>
+                    <td>Número de Brochas</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Materiales</td>
+                    <td>Fibras sintéticas de alta calidad</td>
+                </tr>
+                <tr>
+                    <td>Incluye</td>
+                    <td>Brochas para ojos, labios, rostro, etc.</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://ateneaprofesional.com/cdn/shop/files/kit-de-brochas-1_1080x1080.jpg?v=1687272544" alt="Set de Brochas Profesionales">
+                <video controls>
+                    <source src="videos/brochas.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <section id="eventos" class="categoria">
+        <h2>Eventos Especiales</h2>
+        <p>Maquillaje profesional para ocasiones especiales y eventos glamorosos.</p>
+    
+        <div class="producto">
+            <h3>Maquillaje para Bodas</h3>
+            <table>
+                <tr>
+                    <td>Duración</td>
+                    <td>24 horas</td>
+                </tr>
+                <tr>
+                    <td>Incluye</td>
+                    <td>Base de larga duración, maquillaje de ojos y labios</td>
+                </tr>
+                <tr>
+                    <td>Acabado</td>
+                    <td>Look natural y radiante</td>
+                </tr>
+            </table>
+            <div class="producto-media">
+                <img class="producto-imagen" src="https://www.mujerde10.com/wp-content/uploads/2023/04/maquillaje-de-novia.jpg" alt="Maquillaje para Bodas">
+                <video controls>
+                    <source src="videos/boda.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center py-3">
+        <p>&copy; 2023 Tu Página de Maquillaje</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
